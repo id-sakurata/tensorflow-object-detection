@@ -11,7 +11,7 @@ def main(_):
   input_shape = None
   input_type = "image_tensor"
   pipeline_config_path = "config/ssd_mobilenet_v1_pets.config"
-  trained_checkpoint_prefix = "training/model.ckpt-200933"
+  trained_checkpoint_prefix = "training/model.ckpt-231421"
   output_directory = "output"
   
   pipeline_config = pipeline_pb2.TrainEvalPipelineConfig()
